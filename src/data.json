@@ -1,0 +1,202 @@
+[
+	{
+		"domain_config_id" : 106,
+		"page_id" : 1,
+		"page_name" : "app",
+		"key" : "title",
+		"english_version" : "Cromwell Tools",
+		"for_translation" : "Cromwell Unelte",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 1,
+		"page_name" : "app",
+		"key" : "description",
+		"english_version" : "Cromwell Tools - Experts in Hand Tools, Power Tools, Cutting Tools and PPE",
+		"for_translation" : "Cromwell Unelte - Experți în scule de mână, scule electrice, scule de tăiere și EIP",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 1,
+		"page_name" : "app",
+		"key" : "siteName",
+		"english_version" : "Cromwell Tools & Industrial Supplies",
+		"for_translation" : "Cromwell Unelte - Materiale industriale",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 1,
+		"page_name" : "app",
+		"key" : "buttonText",
+		"english_version" : "Find Out More",
+		"for_translation" : "Află mai multe",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 1,
+		"page_name" : "app",
+		"key" : "contactNumber",
+		"english_version" : "0800 338 877",
+		"for_translation" : "+40 74549 5501",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "heading",
+		"english_version" : "Your Basket",
+		"for_translation" : "Coșul tău",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "basketTotal",
+		"english_version" : "Basket Total",
+		"for_translation" : "Total Coș",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "total",
+		"english_version" : "Total",
+		"for_translation" : "Total",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "grandTotal",
+		"english_version" : "Grand Total",
+		"for_translation" : "Total Final",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "vatLabel",
+		"english_version" : "VAT",
+		"for_translation" : "TVA",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "incLabel",
+		"english_version" : "Inc",
+		"for_translation" : "Incl.",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "exLabel",
+		"english_version" : "Ex",
+		"for_translation" : "Excl.",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "totalGoods",
+		"english_version" : "Total Goods",
+		"for_translation" : "Total Produse",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "delivery",
+		"english_version" : "Delivery",
+		"for_translation" : "Livrare",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "vatTotal",
+		"english_version" : "VAT Total",
+		"for_translation" : "Total TVA",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "btnLabelShareBasket",
+		"english_version" : "Shared Basket",
+		"for_translation" : "Coș Partajat",
+		"is_api_translation" : true,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "btnLabelEmptyBasket",
+		"english_version" : "Empty Basket",
+		"for_translation" : "Golește Coșul",
+		"is_api_translation" : true,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "btnLabelSecureCheckout",
+		"english_version" : "Secure Checkout",
+		"for_translation" : "Plată Securizată",
+		"is_api_translation" : true,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "grandTotalIncVat",
+		"english_version" : "Grand Total Inc VAT",
+		"for_translation" : "Total Final Incl. TVA",
+		"is_api_translation" : false,
+		"notes" : ""
+	},
+	{
+		"domain_config_id" : 106,
+		"page_id" : 2,
+		"page_name" : "basket",
+		"key" : "orderNotesText",
+		"english_version" : "Order Notes - for online use only and will not be printed",
+		"for_translation" : "Note de comandă - numai pentru utilizare online și nu vor fi tipărite",
+		"is_api_translation" : false,
+		"notes" : ""
+	}
+]

@@ -4,6 +4,10 @@
 
 Run with `node index.js` then download file from the 'exported' folder.
 
+### Code
+- https://replit.com/@RolandJLevy/node-write-read-xls-with-exceljs
+- https://github.com/rolandjlevy/node-write-read-xls-with-exceljs
+
 ### Links
 - https://www.npmjs.com/package/exceljs
 - https://github.com/exceljs/exceljs

@@ -6,6 +6,18 @@ const translationData = require('./src/data.json');
 const worksheetName = 'Translation';
 const exportedFile = `./exported/sheet-${(new Date()).getTime()}.xlsx`;
 
+// Define column settings
+const columnSettings = [
+  { header: "Domain id", key: "domain_config_id", width: 12 },
+  { header: "Page id", key: "page_id", width: 12 },
+  { header: "Page name", key: "page_name", width: 12 },
+  { header: "Key", key: "key", width: 24 },
+  { header: "English version", key: "english_version", width: 56 },
+  { header: "For translation", key: "for_translation", width: 56 },
+  { header: "For API", key: "is_api_translation", width: 12 },
+  { header: "Notes", key: "notes", width: 56 },
+];
+
 const writeExcelFile = async ({ fileName, data }) => {
 
   // Create the Workbook
@@ -16,18 +28,6 @@ const writeExcelFile = async ({ fileName, data }) => {
 
   // Add the Worksheet
   const worksheet = workbook.addWorksheet(worksheetName, {});
-
-  // Define column settings
-  const columnSettings = [
-    { header: "Domain id", key: "domain_config_id", width: 12 },
-    { header: "Page id", key: "page_id", width: 12 },
-    { header: "Page name", key: "page_name", width: 12 },
-    { header: "Key", key: "key", width: 24 },
-    { header: "English version", key: "english_version", width: 56 },
-    { header: "For translation", key: "for_translation", width: 56 },
-    { header: "For API", key: "is_api_translation", width: 12 },
-    { header: "Notes", key: "notes", width: 56 },
-  ];
 
   worksheet.columns = columnSettings;
 
@@ -94,6 +94,27 @@ const writeExcelFile = async ({ fileName, data }) => {
   }
 }
 
+const getRowValues = ([
+  _,
+  domainConfigId,
+  pageId,
+  pageName,
+  translationKey,
+  translationEnglish,
+  translationValue,
+  isApiTranslation,
+  notes,
+]) => ({
+  domainConfigId,
+  pageId,
+  pageName,
+  translationKey,
+  translationEnglish,
+  translationValue,
+  isApiTranslation,
+  notes,
+});
+
 const readExcelFile = async ({ fileName }) => {
   const excelData = [];
   try {
@@ -103,26 +124,8 @@ const readExcelFile = async ({ fileName }) => {
     await newWorkbook.xlsx.readFile(destPath);
     newWorkbook.getWorksheet(worksheetName).eachRow((row, rowIndex) => {
       if (rowIndex > headerRowIndex) {
-        const [_,
-          domain_config_id,
-          page_id,
-          page_name,
-          key,
-          english_version,
-          for_translation,
-          is_api_translation,
-          notes
-        ] = row.values;
-        excelData.push({
-          domain_config_id,
-          page_id,
-          page_name,
-          key,
-          english_version,
-          for_translation,
-          is_api_translation,
-          notes
-        });
+        const rowValues = getRowValues(row.values);
+        excelData.push(rowValues);
       }
     });
     console.log(`### Read Excel file: ${fileName}`);
